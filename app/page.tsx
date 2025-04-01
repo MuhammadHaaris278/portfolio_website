@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="bg-card p-5 rounded-lg shadow-md">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="font-bold">Full-Stack Developer</h3>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">July 2024 - Sep 2024</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">July 2024 - Aug 2024</span>
                   </div>
                   <p className="text-muted-foreground text-sm">
                     MERN stack intern at NETSOL. Completed the internship to gain expertise in React.js.
