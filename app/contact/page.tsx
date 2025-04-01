@@ -139,65 +139,62 @@ export default function ContactPage() {
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
             <h2 className="text-2xl font-bold mb-6">Send Me a Message</h2>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block mb-2 font-medium">
-                  Name
-                </label>
-                <Input
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Your name"
-                  required
-                />
-              </div>
+           <form 
+  action="https://formsubmit.co/muhammad.haaris2003@gmail.com" 
+  method="POST"
+  className="space-y-6"
+>
+  <input type="hidden" name="_captcha" value="false" />
+  
+  <div>
+    <label htmlFor="name" className="block mb-2 font-medium">
+      Name
+    </label>
+    <Input
+      id="name"
+      name="name"
+      value={formData.name}
+      onChange={handleChange}
+      placeholder="Your name"
+      required
+    />
+  </div>
 
-              <div>
-                <label htmlFor="email" className="block mb-2 font-medium">
-                  Email
-                </label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Your email"
-                  required
-                />
-              </div>
+  <div>
+    <label htmlFor="email" className="block mb-2 font-medium">
+      Email
+    </label>
+    <Input
+      id="email"
+      name="email"
+      type="email"
+      value={formData.email}
+      onChange={handleChange}
+      placeholder="Your email"
+      required
+    />
+  </div>
 
-              <div>
-                <label htmlFor="message" className="block mb-2 font-medium">
-                  Message
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Your message"
-                  rows={6}
-                  required
-                />
-              </div>
+  <div>
+    <label htmlFor="message" className="block mb-2 font-medium">
+      Message
+    </label>
+    <Textarea
+      id="message"
+      name="message"
+      value={formData.message}
+      onChange={handleChange}
+      placeholder="Your message"
+      rows={6}
+      required
+    />
+  </div>
 
-              <Button type="submit" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? (
-                  <>
-                    <span className="mr-2">Sending...</span>
-                    <div className="animate-spin h-4 w-4 border-2 border-current border-t-transparent rounded-full" />
-                  </>
-                ) : (
-                  <>
-                    Send Message
-                    <Send className="ml-2 w-4 h-4" />
-                  </>
-                )}
-              </Button>
-            </form>
+  <Button type="submit" className="w-full">
+    Send Message
+    <Send className="ml-2 w-4 h-4" />
+  </Button>
+</form>
           </motion.div>
         </div>
       </div>
