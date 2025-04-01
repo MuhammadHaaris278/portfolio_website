@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Urdu Poetry Generator",
-    description: "LSTM-based poetry generator with a Streamlit UI.",
+    description: "LSTM-based poetry generator with a Streamlit UI. Generates poetry on different topics",
     tags: ["AI", "LSTM", "Streamlit", "NLP"],
     github: "https://github.com/MuhammadHaaris278/urdu-poetry-generator",
     demo: null,
@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     title: "Pseudocode to Code Generator",
-    description: "AI model that generates C++ code from pseudocode.",
+    description: "AI model fine tuned to generate C++ code from pseudocode. Used Llama for this purpose",
     tags: ["AI", "NLP", "C++", "Code Generation"],
     github: "https://github.com/MuhammadHaaris278/Psuedocodetocode",
     demo: "https://huggingface.co/spaces/MuhammadHaaris278/Riddle_generator_trained",
@@ -36,8 +36,8 @@ const projects = [
   {
     id: 5,
     title: "Math Meme Correction",
-    description: "AI that solves math-related riddles.",
-    tags: ["AI", "Math", "Computer Vision", "Python"],
+    description: "Llama model fine tuned on riddles dataset to solve math riddles ",
+    tags: ["AI", "Math", "Generative AI", "Python"],
     github: null,
     demo: "https://huggingface.co/spaces/MuhammadHaaris278/Math_Meme_Correction",
   },
@@ -76,7 +76,7 @@ const projects = [
   {
     id: 10,
     title: "Notepad with Huffman Encoding",
-    description: "A text compression tool.",
+    description: "A text compression tool. Made for Data Structures project",
     tags: ["C++", "Huffman Encoding", "Data Compression", "Algorithms"],
     github: "https://github.com/MuhammadHaaris278/NotePad-main",
     demo: null,
@@ -132,7 +132,7 @@ const projects = [
    {
     id: 17,
     title: "SynChat Web App",
-    description: "Real-time chat application.",
+    description: "Real-time chat application. Made for Computer Network project",
     tags: ["React", "Firebase", "WebSockets", "Real-time"],
     github: "https://github.com/mrQur3Sh1/SynChat-App",
     demo: null,
