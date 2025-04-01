@@ -158,12 +158,13 @@ export default function HeroSection() {
               className="flex flex-wrap gap-4"
             >
              <a
-  href="/Muhammad_Haaris_CV.pdf"
+  href="/MuhammadHaarisCV.pdf"
   download="Muhammad_Haaris_CV.pdf"
   className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
 >
-  Download My Resume
+  Download My CV
 </a>
+
 
 
               <Link
