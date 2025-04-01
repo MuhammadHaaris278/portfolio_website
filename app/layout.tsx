@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Muhammad Haaris, a Generative AI & Web Developer specializing in AI model development, fine-tuning, and full-stack web development.",
     generator: 'v0.dev'
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
