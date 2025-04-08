@@ -159,10 +159,10 @@ export default function HeroSection() {
             >
              <a
   href="/MuhammadHaarisCV.pdf"
-  download="Muhammad_Haaris_CV.pdf"
+  download="Muhammad_Haaris_Resume.pdf"
   className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
 >
-  Download My CV
+  Download My Resume
 </a>
 
 
