@@ -158,7 +158,7 @@ export default function HeroSection() {
               className="flex flex-wrap gap-4"
             >
              <a
-  href="/MuhammadHaarisCV.pdf"
+  href="/MuhammadHaarisResume.pdf"
   download="Muhammad_Haaris_Resume.pdf"
   className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
 >
